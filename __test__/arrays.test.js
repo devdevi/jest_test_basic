@@ -11,3 +11,9 @@ describe('Comprobaremos que no tiene elemento', () => {
         expect(arrayColors()).not.toContain('Azul')
     })
 })
+
+describe('Comprobaremos tammaño arreglo', () => {
+    test('array de 5 elementos', () => {
+        expect(arrayColors()).toHaveLength(4)
+    })
+})

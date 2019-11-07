@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Es hora de las instantaneas Fallar el snapshot 1`] = `
+Object {
+  "createdAt": Any<Date>,
+  "id": Any<Number>,
+  "name": "Alejandro González Reyes",
+  "profesion": "JavaScript and PHP Development",
+}
+`;
+
+exports[`Es hora de las instantaneas Snapshot 1`] = `
+Object {
+  "gender": "Masculino",
+  "id": 1,
+  "name": "Rick Sanchez",
+  "species": "Humano",
+  "status": "ALive",
+}
+`;
